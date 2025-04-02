@@ -1,0 +1,13 @@
+answers_lgpd_question:
+  description: >
+    This task is designed to provide answers to questions related to the General Data Protection Law (LGPD) in Brazil. 
+    The task will focus on providing accurate and relevant information regarding data protection regulations, compliance requirements, and best practices for organizations handling personal data.
+
+    Question:
+    {question}
+
+  expected_output: >
+    The expected output is a clear and concise answer to the question asked, providing relevant information about the LGPD and its implications for data protection and privacy in Brazil. 
+    The answer should be well-structured and easy to understand, with references to applicable laws or regulations where appropriate.
+
+  agent: specialist_lgpd
