@@ -11,7 +11,7 @@ with st.sidebar:
     st.write("Escolha a tarefa que deseja realizar:")
     task_type = "📌 Responder Pergunta sobre LGPD"
 
-user_question = st.text_area("✍️ Digite sua pergunta sobre LGPD:", height=150)
+    user_question = st.text_area("✍️ Digite sua pergunta sobre LGPD:", height=150)
 
 if st.button("🔎 Obter Resposta"):
     if not user_question.strip():
