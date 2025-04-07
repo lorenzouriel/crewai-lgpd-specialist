@@ -6,8 +6,8 @@ pdf_tool = PDFKnowledgeSource(
     file_paths=["politica-protecao-de-dados.pdf", "politica-de-privacidade.pdf"]
 )
 
-llm = LLM(model="groq/llama-3.3-70b-versatile", temperature=0)
-# llm = LLM(model="gpt-4o-mini", temperature=0)
+# llm = LLM(model="groq/llama-3.3-70b-versatile", temperature=0)
+llm = LLM(model="gpt-4o-mini", temperature=0)
 
 @CrewBase
 class SpecialistCrew:
